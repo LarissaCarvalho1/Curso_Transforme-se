@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MandaAí | Cadastro de Usuário</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de Usuário</h1>
+    </header>
+    <main>
+      <form action="">
+        <label for="nome">Nome</label><br />
+        <input type="text" name="nome" id="nome" required /><br />
+        <br />
+        <label for="sobrenome">sobrenome</label><br />
+        <input type="text" name="sobrenome" id="sobrenome" required /><br />
+        <br />
+        <label for="email">E-mail</label><br />
+        <input type="email" name="email" id="email" required /><br />
+        <br />
+        <label for="senha">Senha</label><br />
+        <input type="password" name="senha" id="senha" required /><br />
+        <br />
+        <label for="senhaConfirmacao">Confirmar senha</label><br />
+        <input
+          type="password"
+          name="senhaConfirmacao"
+          id="senhaConfirmacao"
+          required
+        /><br />
+        <br />
+        <label for="dataNascimento">Data de nascimento</label><br />
+        <input type="date" name="dataNascimento" id="dataNascimento" required /><br />
+        <br />
+        <!-- Usado para agrupar dados relacionados em um forms -->
+        <fieldset>
+          <legend>Sexo <span aria-hidden="true">*</span></legend>
+          <!-- Required indica ao navegador que pelo menos uma das opções com o mesmo name deve ser escolhida -->
+          <input
+            type="radio"
+            name="sexo"
+            id="feminino"
+            value="feminino"
+            required
+            aria-required="true"
+          />
+          <label for="feminino">Feminino</label>
+          <br />
+          <input type="radio" name="sexo" id="masculino" value="masculino" />
+          <label for="masculino">Masculino</label>
+          <br />
+          <input type="radio" name="sexo" id="outro" value="outro" />
+          <label for="outro">Outro</label>
+          <br />
+          <input type="radio" name="sexo" id="naoInformado" value="naoInformado" />
+          <label for="naoInformado">Prefiro não informar</label>
+        </fieldset>
+        <br />
+        <input type="checkbox" name="termoUso" id="termoUso" required/>
+        <label for="termoUso">Li e concordo com os Termos de Uso.</label>
+        <br /><br />
+        <button type="submit">Cadastrar</button>
+      </form>
+    </main>
+    <footer>
+        <p>Criado por Larissa Carvalho</p>
+    </footer>
+  </body>
+</html>

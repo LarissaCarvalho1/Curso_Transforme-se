@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReservaAqui | Reserva de viagem </title>
+</head>
+<body>
+    <header>
+        <h1>Reserva de Viagem</h1>
+    </header>
+    <main>
+        <form action="">
+            <label for="nomePassageiro">Nome do Passageiro</label><br>
+            <input type="text" name="nomePassageiro" id="nomePassageiro" required><br>
+            <br>
+            <label for="destino">Destino</label><br>
+            <select name="destino" id="destino" required>
+                <option value="" disabled selected></option>
+                <option value="belem">Belém - PA</option>
+                <option value="beloHorizonte">Belo Horizonte - MG</option>
+                <option value="campoGrande">Campo Grande - MS</option>
+                <option value="cuiaba">Cuiabá - MT</option>
+                <option value="fortaleza">Fortaleza - CE</option>
+                <option value="goiania">Goiânia - GO</option>
+                <option value="joaoPessoa">João Pessoa - PB</option>
+                <option value="macapa">Macapá - AP</option>
+                <option value="maceio">Maceió - AL</option>
+                <option value="manaus">Manaus - AM</option>
+                <option value="rioBranco">Rio branco - AC</option>
+                <option value="salvador">Salvador - BA</option>
+                <option value="saoLuis">São Luís - MA</option>
+                <option value="vitoria">Vitória - ES</option>
+            </select>
+            <br><br>
+            <label for="dataIda">Data de Ida</label><br>
+            <input type="date" name="dataIda" id="dataIda" required><br><br>
+            <label for="dataVolta">Data de Volta</label><br>
+            <input type="date" name="dataVolta" id="dataVolta" required>
+            <br><br>
+            <label for="qtdPassageiros">Quantidade de passageiros</label><br>
+            <input type="number" name="qtdPassageiros" id="qtdPassageiros" required>
+            <br><br>
+            <fieldset>
+                <legend>Assento:</legend>
+                <input 
+                    type="radio" 
+                    name="assento" 
+                    id="janela"
+                    value="janela"
+                    required 
+                    aria-required="true"
+                >
+                <label for="janela">Janela</label>
+                <br>
+                <input type="radio" name="assento" id="meio" value="meio">
+                <label for="meio">Meio</label>
+                <br>
+                <input type="radio" name="assento" id="corredor" value="corredor">
+                <label for="corredor">Corredor</label>
+            </fieldset>
+            <br><br>
+            <button type="submit">Confirmar Reserva</button>
+        </form>
+    </main>
+    <footer>
+        <p>Criado por Larissa Carvalho</p>
+    </footer>
+</body>
+</html>

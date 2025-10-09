@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário lanche</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pedido do Cliente</h1>
+    </header>
+    <main>
+      <form action="">
+        <label for="nomeCliente">Nome do Cliente</label><br>
+        <input type="text" name="nomeCliente" id="nomeCliente" required><br>
+        <br>
+        <label for="lanche">Escolha do Lanche</label><br>
+        <select name="lanche" id="lanche" required>
+          <option value="" disabled selected></option>
+          <option value="hamburguerClassico">Hambúrguer Clássico</option>
+          <option value="xSalada">XSalada</option>
+          <option value="xTudo">XTudo</option>
+        </select>
+        <br><br>
+        <fieldset>
+          <legend>Escolha dos Acompanhamentos</legend>
+          <input type="checkbox" name="acompanhamento" id="batata"value="batata">
+          <label for="batata">Batata</label><br>
+          <input type="checkbox" name="acompanhamento" id="refrigerante" value="refrigerante">
+          <label for="refrigerante">Refrigerante</label><br>
+          <input type="checkbox" name="acompanhamento" id="sobremesa" value="sobremesa">
+          <label for="sobremesa">Sobremesa</label>
+        </fieldset>
+        <br>
+        <label for="observacao">Observações</label><br>
+        <textarea name="observacao" id="observacao" rows="4"></textarea><br>
+        <br>
+        <input type="submit" value="Enviar Pedido">
+      </form>
+    </main>
+    <footer>
+      <p>Criado por Larissa Carvalho</p>
+    </footer>
+  </body>
+</html>
