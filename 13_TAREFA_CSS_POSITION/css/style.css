@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div-box {
+    position: relative;
+    left: 20px;
+    top: 50px;
+    text-align: center;
+    background-color: #DBC1E4;
+    padding: 10px;
+}

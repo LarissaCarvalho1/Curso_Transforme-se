@@ -1,0 +1,18 @@
+h1 {
+    position: static;
+    text-align: center;
+}
+
+.div-elemento {
+    position: static;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.impar {
+    background: #772E8B;
+}
+
+.par {
+    background-color: #B000E1;
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #96e88c;
+    padding: 16px 0;
+    text-align: center;
+    box-shadow: 0 0 25px #772E8B;
+}
+
+.div-item {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.impar {
+    background-color: #DBC1E4;
+}
+.par {
+    background-color: #772E8B;
+}

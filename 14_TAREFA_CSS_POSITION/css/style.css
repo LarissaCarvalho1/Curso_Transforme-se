@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div-pai {
+    position: relative;
+    background-color: #DBC1E4;
+    height: 300px;
+}
+
+.div-filho {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    background-color: whitesmoke;
+    height: 200px;
+    padding: 10px;
+}
